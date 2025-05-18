@@ -37,7 +37,7 @@ The course is organized into **thematic units**, each including:
 
 | Notebook                   | Dataset                                                                 |
 |----------------------------|-------------------------------------------------------------------------|
-| `guia_1.ipynb`, `extended` | [Used Houses RM Chile (May 2020)](https://www.kaggle.com/datasets/gorkigonzalez/casas-usadas-rm-chile-mayo-2020) |
+| `guia_1.ipynb`, `extended` | [Used Houses RM Chile (May 2020)](https://www.kaggle.com/datasets/gorkigonzalez/casas-usadas-rm-chile-mayo-2020)  [Chilean cities](https://www.kaggle.com/datasets/gabrielcabas/chilean-cities)|
 | `guia_2.ipynb`             | [Stellar Classification SDSS17](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17) |
 | `practico_1.ipynb`         | [Global Temperature Records](https://www.kaggle.com/datasets/maso0dahmed/global-temperature-records-1850-2022) |
 | `practico_2.ipynb`         | [University Admission Chile](https://www.kaggle.com/datasets/daniellopez01/admisionuescl) |
