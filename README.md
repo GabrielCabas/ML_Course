@@ -57,6 +57,7 @@ The course is organized into **thematic units**, each including:
 - `bayes_1.ipynb`, `bayes_2.ipynb`: Bayes theorem applied to toy examples  
 - `practico_1.ipynb`: Naive Bayes for tweet sentiment classification  
 - `practico_2.ipynb`: KNN classifier to predict Alzheimer's status
+- `practico_3.ipynb`: KNN, decision tree and random forest music genre classifier
 
 **Datasets:**
 
@@ -65,6 +66,8 @@ The course is organized into **thematic units**, each including:
 | `guia_1.ipynb`     | [Clustering Penguins](https://www.kaggle.com/datasets/tentotheminus9/penguins)              |
 | `practico_1.ipynb` | [Sentimental Analysis for Tweets](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) |
 | `practico_2.ipynb` | [Alzheimer Features](https://www.kaggle.com/datasets/brsdincer/alzheimer-features)          |
+| `practico_3.ipynb` | [Music features](https://www.kaggle.com/datasets/insiyeah/musicfeatures)          |
+
 
 ---
 
