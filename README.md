@@ -58,6 +58,7 @@ The course is organized into **thematic units**, each including:
 - `practico_1.ipynb`: Naive Bayes for tweet sentiment classification  
 - `practico_2.ipynb`: KNN classifier to predict Alzheimer's status
 - `practico_3.ipynb`: KNN, decision tree and random forest music genre classifier
+- `practico_4.ipynb`: KNN, decision tree and random forest music genre classifier
 
 **Datasets:**
 
@@ -67,6 +68,7 @@ The course is organized into **thematic units**, each including:
 | `practico_1.ipynb` | [Sentimental Analysis for Tweets](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) |
 | `practico_2.ipynb` | [Alzheimer Features](https://www.kaggle.com/datasets/brsdincer/alzheimer-features)          |
 | `practico_3.ipynb` | [Music features](https://www.kaggle.com/datasets/insiyeah/musicfeatures)          |
+| `practico_4.ipynb` | [Spam Text Message Classification](https://www.kaggle.com/datasets/team-ai/spam-text-message-classification)          |
 
 
 ---
