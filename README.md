@@ -73,6 +73,25 @@ The course is organized into **thematic units**, each including:
 
 ---
 
+### 🧠 Unit 3: Deep Learning
+
+- **Multilayer Perceptron**
+- **Transfer learning**
+- **Fine tuning**
+
+
+**Notebooks:**
+
+- `practico_1.ipynb`: Use a model, apply transfer learning and finetuning.
+
+**Datasets:**
+
+| Notebook           | Dataset                                                                                     |
+|--------------------|---------------------------------------------------------------------------------------------|
+| `practico_1.ipynb`     | [Cats and Dogs](https://www.kaggle.com/datasets/marquis03/cats-and-dogs)              |
+
+---
+
 ## ⚙️ Requirements
 
 Install Python 3 and the following libraries:
