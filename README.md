@@ -76,8 +76,7 @@ The course is organized into **thematic units**, each including:
 ### 🧠 Unit 3: Deep Learning
 
 - **Multilayer Perceptron**
-- **Transfer learning**
-- **Fine tuning**
+- **Transfer learning and Fine tuning**
 
 
 **Notebooks:**
@@ -88,7 +87,7 @@ The course is organized into **thematic units**, each including:
 
 | Notebook           | Dataset                                                                                     |
 |--------------------|---------------------------------------------------------------------------------------------|
-| `practico_1.ipynb`     | [Cats and Dogs](https://www.kaggle.com/datasets/marquis03/cats-and-dogs)              |
+| `practico_1.ipynb` | [Cats and Dogs](https://www.kaggle.com/datasets/marquis03/cats-and-dogs)                    |
 
 ---
 
@@ -97,9 +96,12 @@ The course is organized into **thematic units**, each including:
 Install Python 3 and the following libraries:
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn flask
+pip install numpy pandas scikit-learn matplotlib seaborn flask joblib nltk
 ```
-
+Install torch following the instructions of [Get Started](https://pytorch.org/get-started/locally/)
+```bash
+pip install install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 You may also want:
 
 - Jupyter Notebook or JupyterLab
