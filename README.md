@@ -89,7 +89,6 @@ The course is organized into **thematic units**, each including:
 | Notebook           | Dataset                                                                                     |
 |--------------------|---------------------------------------------------------------------------------------------|
 | `practico_1.ipynb` | [Cats and Dogs](https://www.kaggle.com/datasets/marquis03/cats-and-dogs)                    |
-|--------------------|---------------------------------------------------------------------------------------------|
 | `practico_2.ipynb` | Simulated data                                                                              |
 
 ---
