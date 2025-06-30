@@ -82,12 +82,15 @@ The course is organized into **thematic units**, each including:
 **Notebooks:**
 
 - `practico_1.ipynb`: Use a model, apply transfer learning and finetuning.
+- `practico_2.ipynb`: Basic concepts of dense neural networks.
 
 **Datasets:**
 
 | Notebook           | Dataset                                                                                     |
 |--------------------|---------------------------------------------------------------------------------------------|
 | `practico_1.ipynb` | [Cats and Dogs](https://www.kaggle.com/datasets/marquis03/cats-and-dogs)                    |
+|--------------------|---------------------------------------------------------------------------------------------|
+| `practico_2.ipynb` | Simulated data                                                                              |
 
 ---
 
