@@ -104,20 +104,59 @@ All notebooks live in `unidad_2/` and are meant to be followed **in numerical or
 
 ## Requirements
 
-Install Python 3 and the following libraries:
+Use **Python 3.10 or newer** (3.9 is often fine). Prefer a virtual environment (`venv` or Conda).
+
+### Core stack (Units 1–2)
+
+**NumPy, Pandas, visualization, and scikit-learn** (the `sklearn` API):
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn flask joblib nltk
+pip install "numpy>=1.24" "pandas>=2.0" "scikit-learn>=1.3" "matplotlib>=3.7" "seaborn>=0.13" jupyter ipykernel
 ```
-Install torch following the instructions of [Get Started](https://pytorch.org/get-started/locally/)
+
+`scikit-learn` will pull in **SciPy** and other dependencies automatically.
+
+**NLP and files:**
+
+```bash
+pip install "nltk>=3.8" openpyxl pillow
+```
+
+- **nltk**: spam notebook; download the corpora the notebook asks for (often `stopwords` and a Punkt tokenizer package—`punkt` or `punkt_tab` depending on your NLTK version).
+- **openpyxl**: optional Excel I/O in the Pandas notebook.
+- **pillow**: `PIL` / image utilities (used heavily in Unit 3).
+
+**Optional** — interactive Matplotlib backend for 3D plots in `unidad_2/01.finite-dimensional_vector_spaces.ipynb`:
+
+```bash
+pip install ipympl
+```
+
+### Web app (Unit 1)
+
+If you run the Flask demo:
+
+```bash
+pip install flask joblib
+```
+
+### Deep learning (Unit 3)
+
+Install **PyTorch** for your platform from [PyTorch: Get Started](https://pytorch.org/get-started/locally/) (choose CPU or CUDA build).
+
+Example with CUDA 11.8 wheels:
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
-You may also want:
 
-- Jupyter Notebook or JupyterLab
-- VSCode
-- `venv` or `conda` for environment management
+For CPU-only, use the `pip` command shown on the PyTorch site without the extra index URL.
+
+### Editor / environment
+
+- **Jupyter Notebook** or **JupyterLab** (via `jupyter` above)
+- **VS Code** or another editor with a Jupyter extension
+- **venv** or **conda** for isolated environments
 
 ---
 
