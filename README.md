@@ -1,6 +1,6 @@
 # Introduction to Artificial Intelligence
 
-This repository contains the material for the **Introduction to Artificial Intelligence** course aimed at undergraduate students. The course introduces the theoretical and practical foundations of Machine Learning and Artificial Intelligence through guided tutorials, model-focused exercises, and real-world applications.
+This repository contains the material for the **Introduction to Artificial Intelligence** course aimed at undergraduate students. The course introduces the theoretical and practical foundations of Machine Learning and Artificial Intelligence through guided tutorials, model-focused exercises, and applied notebooks.
 
 ---
 
@@ -9,8 +9,7 @@ This repository contains the material for the **Introduction to Artificial Intel
 The course is organized into **thematic units**, each including:
 
 - **Tutorials**: End-to-end machine learning pipelines for realistic problems.  
-- **Practicals**: Focused exercises for deepening understanding of specific models.  
-- **Web Applications**: Deployment of trained models using Flask.
+- **Practicals**: Focused exercises for deepening understanding of specific models.
 
 ---
 
@@ -21,8 +20,7 @@ The course is organized into **thematic units**, each including:
 All notebooks live in `unidad_1/` and are meant to be followed **in numerical order**.
 
 - **Topics**: Python basics; NumPy, Pandas, and visualization; pipeline ideas (generalization, underfitting, overfitting); linear and logistic regression in realistic settings  
-- **Models**: ordinary least squares / linear regression, logistic regression (including multiclass)  
-- **Extras**: optional Flask deployment (`app.py`)
+- **Models**: ordinary least squares / linear regression, logistic regression (including multiclass)
 
 **Notebooks:**
 
@@ -36,7 +34,6 @@ All notebooks live in `unidad_1/` and are meant to be followed **in numerical or
 | 6 | `unidad_1/05.life_expectancy.ipynb` | Regression: life expectancy by country |
 | 7 | `unidad_1/06.house_pricing.ipynb` | Regression: housing prices (Santiago metropolitan region) |
 | 8 | `unidad_1/07.star_classification.ipynb` | Multiclass classification: stellar types (SDSS) |
-| — | `unidad_1/app.py` | Web app serving a trained regression model |
 
 **Datasets** (paths are relative to the repo root; place files under `datasets/` as in each notebook):
 
@@ -132,14 +129,6 @@ pip install "nltk>=3.8" openpyxl pillow
 pip install ipympl
 ```
 
-### Web app (Unit 1)
-
-If you run the Flask demo:
-
-```bash
-pip install flask joblib
-```
-
 ### Deep learning (Unit 3)
 
 Install **PyTorch** for your platform from [PyTorch: Get Started](https://pytorch.org/get-started/locally/) (choose CPU or CUDA build).
@@ -173,12 +162,6 @@ cd ML_Course
 
 ```bash
 jupyter notebook
-```
-
-3. (Optional) Run web applications like `app.py`:
-
-```bash
-python unidad_1/app.py
 ```
 
 ---
